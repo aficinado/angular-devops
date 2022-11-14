@@ -10,9 +10,5 @@ phases:
 
 artifacts:
   files:
-    - '**/*.html'
-    - '**/*.js'
-    - '**/*.css'
-    - '**/*.ico'
-  discard-paths: yes
-  base-directory: 'thaku/angular-devops'
+    - '**/*'
+  base-directory: 'angular-devops'
