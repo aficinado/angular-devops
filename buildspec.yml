@@ -18,7 +18,7 @@ phases:
       - npm run test:ci
   post_build:
     commands:
-      - aws s3 sync s3://0utput-artifact0/35aafb97-4ce7-4cb1-8824-4117b3ce2849/ --acl 'public-read' --delete
+      - aws s3 sync s3://0utput-artifact0/35aafb97-4ce7-4cb1-8824-4117b3ce2849/ 
 
 artifacts:
   files:
