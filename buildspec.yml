@@ -15,4 +15,4 @@ artifacts:
     - '**/*.css'
     - '**/*.ico'
   discard-paths: yes
-  base-directory: 'devOps_app'
+  base-directory: 'thaku/angular-devops'
