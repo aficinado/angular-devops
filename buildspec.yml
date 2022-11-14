@@ -18,7 +18,7 @@ phases:
       - npm run test:ci
   post_build:
     commands:
-      - aws s3 sync ./dist/angular-devops s3://angular-devops-production --acl 'public-read' --delete
+      - aws s3 sync ./dist/artifact-project s3://0utput-artifact0 --acl 'public-read' --delete
 
 artifacts:
   files:
@@ -27,4 +27,4 @@ artifacts:
     - '**/*.css'
     - '**/*.ico'
   discard-paths: yes
-  base-directory: 'dist/angular-devops'
+  base-directory: 'dist/artifact-project'
